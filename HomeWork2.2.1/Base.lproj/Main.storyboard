@@ -50,7 +50,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.25" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="DFx-dg-rCM" userLabel="Red Color Horizontal Slider">
                                                 <rect key="frame" x="108" y="0.0" width="282" height="31"/>
                                                 <connections>
-                                                    <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Xw8-CD-G1X"/>
+                                                    <action selector="rgbSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="CFm-M1-Y5p"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -79,7 +79,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="mac-Mg-kQS" userLabel="Green Color Horizontal Slider">
                                                 <rect key="frame" x="108" y="0.0" width="282" height="31"/>
                                                 <connections>
-                                                    <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="oMP-Ps-fEO"/>
+                                                    <action selector="rgbSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="xSj-dz-Exb"/>
                                                 </connections>
                                             </slider>
                                         </subviews>
@@ -108,7 +108,7 @@
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.75" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Hly-aa-gJG" userLabel="Blue Color Horizontal Slider">
                                                 <rect key="frame" x="108" y="0.0" width="282" height="31"/>
                                                 <connections>
-                                                    <action selector="rgbSliderChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="Seq-Yl-WOE"/>
+                                                    <action selector="rgbSliderChanged" destination="BYZ-38-t0r" eventType="valueChanged" id="9hy-Fz-bUu"/>
                                                 </connections>
                                             </slider>
                                         </subviews>

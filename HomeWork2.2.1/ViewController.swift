@@ -22,18 +22,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    }
-
-    override func viewWillLayoutSubviews() {
         colorView.layer.cornerRadius = 15
         redColorHSlider.minimumTrackTintColor = .red
         greenColorHSlider.minimumTrackTintColor = .green
         blueColorHSlider.minimumTrackTintColor = .blue
         
         changeColor()
-
     }
-    
+
     func changeColor() {
         colorView.backgroundColor = UIColor(displayP3Red: CGFloat(redColorHSlider.value),
                                             green: CGFloat(greenColorHSlider.value),
@@ -41,7 +37,7 @@ class ViewController: UIViewController {
                                             alpha: 1)
     }
     
-    @IBAction func rgbSliderChanged(_ sender: Any) {
+    @IBAction func rgbSliderChanged() {
         redColorValueLabel.text = String(format: "%.2f", redColorHSlider.value)
         greenColorValueLabel.text = String(format: "%.2f", greenColorHSlider.value)
         blueColorValueLabel.text = String(format: "%.2f", blueColorHSlider.value)
